@@ -1,136 +1,29 @@
-<div align="center">
+# Building a full-stack travel app with Next.js and MongoDB.
 
-  <img src="https://user-images.githubusercontent.com/99184393/185779974-a31a9f47-f8d3-42ea-b7f8-4a2971774615.png" alt="logo" width="250" height="auto" />
-  
-# Airbnb Clone with Next.js 13!
-  
-  <p>
-Full Stack Airbnb Clone with Next.js 13 Tailwind-css, Prisma, MongoDB, NextAuth, Framer-motionSocial, Login (Google and Facebook), Image upload, Cloudinary CDN, Location selection, Map component, Country autocomplete, Fetching listings with server components
-  </p>
-  
-<!-- Badges -->
-<a href="https://airbnb-sclone.vercel.app" target="_blank">![](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)</a>
-![](https://img.shields.io/badge/Maintained-Yes-indigo)
-![](https://img.shields.io/github/forks/SashenJayathilaka/Airbnb-Build.svg)
-![](https://img.shields.io/github/stars/SashenJayathilaka/Airbnb-Build.svg)
-![](https://img.shields.io/github/issues/SashenJayathilaka/Airbnb-Build)
-![](https://img.shields.io/github/last-commit/SashenJayathilaka/Airbnb-Build)
+## Tech stack
 
-<h4>
-    <a href="https://abproject-sclone.vercel.app">View Demo</a>
-  <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/Airbnb-Build/blob/master/README.md">Documentation</a>
-  <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/Airbnb-Build/issues">Report Bug</a>
-  <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/Airbnb-Build/issues">Request Feature</a>
-  </h4>
-</div>
+- Client
+  - Typescript
+  - Next
+  - zustand
+  - TailwindCSS
 
-<br />
+- Serve
+  - MongoDB
+  - Prisma
 
-<!-- Table of Contents -->
+## About
 
-## :notebook_with_decorative_cover: Table of Contents
+- Login (Google and Facebook)
+- Image upload
+- Location selection
+- Map component
+- Country autocomplete
+- Fetching listings with server components
 
-- [About the Project](#star2-about-the-project)
-  - [Screenshots](#camera-screenshots)
-  - [Tech Stack](#space_invader-tech-stack)
-  - [Environment Variables](#key-environment-variables)
-- [Getting Started](#toolbox-getting-started)
-  - [Prerequisites](#bangbang-prerequisites)
-  - [Installation](#gear-installation)
-  - [Run Locally](#running-run-locally)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [Contact](#handshake-contact)
+## Getting Started
 
-<!-- About the Project -->
-
-## :star2: About the Project
-
-<!-- Screenshots -->
-
-### :camera: Screenshots
-
-- Reservation functionality & Description and Price, Listing creation, Listing card component
-
-<div align="center">
-<a href="https://airbnb-sclone.vercel.app"><img  src='./demo/ezgif-4-27f1be5f56.gif' alt='image'/></a>
-</div>
-
-<br />
-
-- Searching functionality Favorite functionality, Individual Listing View, Listing reservation component
-
-<div align="center">
-<a href="https://airbnb-sclone.vercel.app"><img  src='./demo/ezgif-4-8ac9db77ff.gif' alt='image'/></a>
-</div>
-
-## <a href="https://airbnb-sclone.vercel.app" target="_blank">LIVE DEMO 💥</a>
-
-![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
-![forthebadge](https://forthebadge.com/images/badges/for-you.svg)
-![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)
-
-### :space_invader: Tech Stack
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://#/">Typescript</a></li>
-    <li><a href="https://nextjs.org/">Next.js</a></li>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
-    <li><a href="https://www.prisma.io">Prisma</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-  <li><a href="https://firebase.google.com">Mongodb</a></li>
-  <li><a href="https://cloudinary.com/">Cloudinary</a></li>
-  </ul>
-</details>
-
-<br />
-
-<table>
-    <tr>
-        <td>
-<a href="#"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="" width="30" height="30" /></a>
-        </td>
-                <td>
-<a href="#"><img src="https://user-images.githubusercontent.com/99184393/183096870-fdf58e59-d78c-44f4-bd1c-f9033c16d907.png" alt="Google" width="30" height="30" /></a>
-        </td>
-                        <td>
-<a href="#"><img src="https://user-images.githubusercontent.com/99184393/179383376-874f547c-4e6f-4826-850e-706b009e7e2b.png" alt="" width="30" height="30" /></a>
-        </td>
-                              <td>
-<a href="#"><img src="https://user-images.githubusercontent.com/99184393/181918664-569af962-756c-438c-b350-294f042e6f61.png" alt="" width="30" height="30" /></a>
-        </td>
-                        <td>
-<a href="#"><img src="https://user-images.githubusercontent.com/99184393/180462270-ea4a249c-627c-4479-9431-5c3fd25454c4.png" alt="" width="30" height="30" /></a>
-        </td>
-                                <td>
-<a href="#"><img src="https://user-images.githubusercontent.com/99184393/185779974-a31a9f47-f8d3-42ea-b7f8-4a2971774615.png" alt="" width="30"height="30"/></a>
-        </td>
-                                      <td>
-<a href="#"><img src="https://user-images.githubusercontent.com/99184393/229775276-a7cb148b-7fbd-4334-a07f-f2223bc49f62.png" alt="" width="30"height="30"/></a>
-        </td>
-      <td>
-<a href="#"><img src="https://user-images.githubusercontent.com/99184393/204170976-0e5c6e2a-2b41-483d-adbd-d5d1e40b8d15.png" alt="" width="30"height="30"/></a>
-        </td>
-        <td>
-<a href="#"><img src="https://user-images.githubusercontent.com/99184393/214867309-7b59fa0e-c872-484e-bc8f-462896c54d2a.png" alt="" height="30"/></a>
-        </td>
-    </tr>
-</table>
-
-
-## :toolbox: Getting Started
-
-### :bangbang: Prerequisites
+### Prerequisites
 
 - Install Node JS in your computer <a href='https://nodejs.org/en/'>HERE</a>
 - Sign up for a Cloudinary account <a href='https://cloudinary.com/'>HERE</a>
@@ -140,7 +33,7 @@ Full Stack Airbnb Clone with Next.js 13 Tailwind-css, Prisma, MongoDB, NextAuth,
 
 <!-- Env Variables -->
 
-### :key: Environment Variables
+### Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
 
@@ -162,10 +55,9 @@ To run this project, you will need to add the following environment variables to
 
 `NEXT_PUBLIC_LOOKUP_KEY`
 
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### :gear: Installation
+### Installation
 
 ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![](https://img.shields.io/badge/next.js-20232A?style=for-the-badge&logo=next.js&logoColor=61DAFB)
@@ -207,18 +99,18 @@ Add the paths to all of your template files in your `tailwind.config.js` file.
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
- 
+    './app/**/*.{js,ts,jsx,tsx}',
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+
     // Or if using `src` directory:
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};
 ```
 
 #### Add the Tailwind directives to your CSS
@@ -231,27 +123,13 @@ Add the `@tailwind` directives for each of Tailwind’s layers to your `./styles
 @tailwind utilities;
 ```
 
-Install dependencies
-
-<a href="https://github.com/SashenJayathilaka/Airbnb-Build/blob/master/package.json" target="_blank">🔶 Dependency Info</a>
-
 <!-- Run Locally -->
 
-### :running: Run Locally
+### Run Locally
 
 ![](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
 Clone the project
-
-```bash
-  git clone https://github.com/SashenJayathilaka/Airbnb-Build.git
-```
-
-change directory
-
-```bash
-  cd Airbnb-Build
-```
 
 Install dependencies
 
@@ -279,18 +157,9 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-### Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
 <!-- Deployment -->
 
-### :triangular_flag_on_post: Deployment
+### Deployment
 
 To deploy this project run
 
@@ -301,19 +170,3 @@ To deploy this project run
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## :handshake: Contact
-
-Sashen - [@twitter_handle](https://twitter.com/SashenHasinduJ) - sashenjayathilaka95@gmail.com
-
-Project Link: [https://github.com/SashenJayathilaka/Airbnb-Build.git](https://github.com/SashenJayathilaka/Airbnb-Build.git)
-
-<br />
-
-<div align="center">
-<a href="https://airbnb-sclone.vercel.app"><img  src='https://user-images.githubusercontent.com/99184393/229773559-72e7f64a-361d-4285-976a-00a8919dd783.png' alt='image'/></a>
-</div>
-
-<br />
-
-<div align="center">Don't forget to leave a star ⭐️</div>
